@@ -6,18 +6,26 @@
 
 #### 简介
 
-就是我真正自己编写的第一个游戏，踩了不少坑<br>
+就是我真正自己编写的第一个安卓程序，踩了不少坑<br>
 
 此项目的特点:
 
-* 采用 `AndroidX` 依赖
+* 使用了 `AndroidX`
 * 使用 `JDK12`
-* 用 `IntelliJ IDEA 2019.1.4` 开发
+* 使用 `IntelliJ IDEA 2019.1.4` 开发
 
 #### 后记
 
 把 `IntelliJ IDEA` 调教成了我自定义的 `Android Studio` <br>
 在国内果然搞这种开发很不方便呐，需要配置很多网络镜像啊代理啊的东西<br>
+至于怎样使用国内镜像<br>
+把下面两句加入 `IJ` 或 `Android Studio` 的 **Project** 下的 `build.gradle`里的两个 `repositories` 里面
+
+```gradle
+maven { url 'https://maven.aliyun.com/repository/google' }
+maven { url 'https://maven.aliyun.com/repository/jcenter' }
+```
+
 毕竟TC网络出关口有个那什么<br>
 还好我这里网络不错，能够直接从 `dl.google.com` 下到 `SDK` 和 `AVD Images` <br>
 `IntelliJ IDEA`也会时不时报个什么插件错误出来，不过倒不影响使用<br>
