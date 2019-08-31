@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">大数游戏</string>
     <string name="desc">点击更大的数得分，点错扣分</string>
-    <string name="win">对了</string>
-    <string name="lose">错了</string>
+    <string name="win">Correct</string>
+    <string name="lose">Wrong</string>
     <string name="scores">得分: </string>
     <string name="score">得分: 0</string>
     <string name="no_more_scores">啊输了，已经0分了，不能扣了</string>
