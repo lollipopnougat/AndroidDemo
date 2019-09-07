@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(clickListener1);
         btn2 = findViewById(R.id.btn2);
         btn2.setText(numberGame.GetSecond());
-        //btn2.setOnClickListener(clickListener2);
+        btn2.setOnClickListener(clickListener2);
     }
 
     private int scores = 0;
@@ -51,17 +51,17 @@ public class MainActivity extends AppCompatActivity {
             Process(1);
         }
     };
-    /*private View.OnClickListener clickListener2 = new View.OnClickListener() {
+    private View.OnClickListener clickListener2 = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Process(2);
         }
-    };*/
+    };
 
     //在xml中已经绑定了点击事件函数
-    public void Btn2Click(View v) {
+    /*public void Btn2Click(View v) {
         Process(2);
-    }
+    }*/
 
 }
 
